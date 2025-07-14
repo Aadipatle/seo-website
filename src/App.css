@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Css */
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15%;
+  position: absolute;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+}
+
+header nav a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 21px;
+  font-weight: 500;
+  color: white;
+  font-style: normal;
+}
+header nav a:nth-child(1) {
+  color: #472e7f;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+/* Home Page Css */
+.homeWrapper {
+  height: 100vh;
+}
+.home {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: auto;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.headings {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  position: absolute;
+  left: 90px;
+  top: 200px;
+  gap: 15px;
+}
+.headings h1 {
+  font-weight: 700;
+  font-size: 49px;
+  background: -webkit-linear-gradient(290deg, #472e7f, #962d6c);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.headings p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.btn {
+  display: flex;
+  gap: 31px;
+}
+.headings .btn button {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  background-color: #962d6c;
+  border: none;
+  box-shadow: 2px 3px 5px 1px #962d6c;
+  color: white;
+  border-radius: 3px;
+}
+.headings .btn button:nth-child(1) {
+  background-color: #472e7f;
+  box-shadow: 3px 3px 5px 1px #472e7f;
+}
+.homeImg {
+  /* width: 50%; */
+  z-index: 1;
+}
+.homeImg img {
+  margin-top: -210px;
+}
+
+/* Choos Us  */
+.chooseUs {
+  display: flex;
+  height: 650px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.chooseUs img{
+  width: 450px;
+}
