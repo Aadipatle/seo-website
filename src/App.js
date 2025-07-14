@@ -8,7 +8,7 @@ function App() {
   const HomePage = lazy(()=>import('./pages/home/Home'))
   return (
     <>
-  <BrowserRouter>
+  <BrowserRouter basename="/seo-website">
  
   <Routes>
   
